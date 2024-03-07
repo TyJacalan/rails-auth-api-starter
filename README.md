@@ -1,24 +1,26 @@
-# README
+# RAILS STARTER
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A starter template for a rails api only application with authentication for users already setup.
 
-Things you may want to cover:
+### Main dependencies:
 
-* Ruby version
+* Cors
 
-* System dependencies
+* Devise
 
-* Configuration
+* JWT
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+### How to use:
+1. Clone the repository to your local machine
+```git clone https://github.com/TyJacalan/rails-auth-api-starter.git```
+2. Run
+```bundle install```
+3. Run
+```EDITOR="code --wait" rails credentials:edit```
+4. Do a global find and replace for `rails_auth_api_starter` with `your_project_name`
+5. Run
+```bin/rails db:create db:migrate```
+6. Start your api server on port 4000
+```bin/rails s```
 
 * ...
