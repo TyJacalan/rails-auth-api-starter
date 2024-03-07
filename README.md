@@ -22,5 +22,3 @@ A starter template for a rails api only application with authentication for user
 ```bin/rails db:create db:migrate```
 6. Start your api server on port 4000
 ```bin/rails s```
-
-* ...
